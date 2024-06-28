@@ -11,6 +11,7 @@ This technology ensures P2P (peer to peer) trading at lower expense and at highe
 Blockchain trading means transparent pricing, faster payment processing and immutable transaction record keeping. 
 
 *How to use this code?*
+
 This code was written in vscode editor using the extension Solidity. 
 Additionally, to be able to run the code, Ganache is used to function as the platform’s blockchain (https://archive.trufflesuite.com/ganache/). 
 
