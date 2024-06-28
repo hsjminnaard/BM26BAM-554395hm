@@ -18,8 +18,17 @@ Additionally, to be able to run the code, Ganache is used to function as the pla
 EnviroBond Exchange will use smart contracts to include conditions and requirements for its issuers of bonds as suggested by Doran and Tanner (2019). 
 Three smart contracts have been created, each with its own code to deploy the contract on the blockchain. 
 The contracts and corresponding deploy files are called:
+
 BondIssuanceContract.sol and DeployBIC.py 
+
 MicroInvestingContract.sol and DeployMIC.py 
+
 SubscriptionContract.sol and DeploySC.py 
 
 MicroInvestingContract_vis.sol and DeployMIC_vis.py were solely used for the demonstration and will not be included on the platform itself. 
+
+*What does it do?*
+
+The BondIssuanceContract enables users to issue bonds and uses third party verification and user verification to ensure quality green 
+bonds issuance only. The MicroInvestingContracts enables trading amongst users and invokes a fee for each transaction. The SubscriptionContract
+ensures that every user pays a monthly fee for using the platform. 
